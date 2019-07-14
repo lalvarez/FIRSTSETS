@@ -1,0 +1,14 @@
+A --> A a D
+ | A C
+ | B
+ ;
+B --> C x D B
+ | z
+ ;
+C --> C x
+ | C b
+ |
+ ;
+D --> d D
+ | p
+ ;
